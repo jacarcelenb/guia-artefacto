@@ -1,0 +1,28 @@
+<div class="container">
+    <br>
+    <p style="text-align: center; font-weight:bolder; color:black;
+    font-size: 24px;"><i class="fa fa-question-circle" aria-hidden="true"></i>
+        Preguntas frecuentes </p>
+    <br>
+    <mat-accordion color="primary" *ngFor="let item of listaPreguntas; index as i">
+        <mat-expansion-panel (opened)='item.mostrar = true'
+            (closed)="item.mostrar = false">
+            <mat-expansion-panel-header>
+                <mat-panel-title>{{i+1}}.  {{ item.pregunta}}
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p>{{item.respuesta}}</p>
+            <a href="{{item.enlace}}" target="_blank" *ngIf="item.enlace.length > 0"
+                style="text-decoration: none; font-weight: bolder;">"{{item.enlace}}</a>
+        </mat-expansion-panel>
+    </mat-accordion>
+
+</div>
+<footer class="bg-light text-center pt-2" style="background-color: #fff;">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 1);">
+        <span class="text-light">
+            © 2023 Copyright:
+        </span>
+        <a class="text-light" href="#!" style="text-decoration: none;">FICA-UTN</a>
+    </div>
+</footer>

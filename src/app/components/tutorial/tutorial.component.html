@@ -1,0 +1,155 @@
+
+
+<div class="container">
+    <br>
+    <p style=" font-weight:bolder; color:black !important;
+    font-size:24px;margin-left: 360px;"><i class="fa fa-address-book" aria-hidden="true"></i>
+        Tutorial</p>
+    <mat-drawer-container class="example-container">
+        <div style="text-align:center;">
+            <div class="card" *ngIf="urlVideo.length == 0">
+                <div class="card-header"  style="text-align: center;">
+                    <p class="fs-5 fw-bold">Bienvenido/a </p>
+                </div>
+                <div class="card-body" style="text-align: center;">
+                    <img src="../../../assets/images/tuto-removebg-preview.png" alt="" srcset=""
+                    height="325">
+                    <br>
+                    <br>
+                    <br>
+                    <h5 class="fs-6 fw-bold">Haga click en el menú de la izquierda para ver las distintas secciones del tutorial.</h5>
+
+                </div>
+            </div>
+            <video src="{{urlVideo}}" width="800"
+                height="475" controls *ngIf="urlVideo.length > 0"></video>
+        </div>
+        <mat-drawer mode="side" opened position="end" class="drawer">
+            <p
+                style="
+              text-align: center;
+              font-size: 16px;
+              font-weight: bold;
+              margin-top: 20px;
+              color: white;
+            ">
+                <i aria-hidden="true"
+                    style=" font-style: normal;"><i
+                        class="fa fa-question-circle" aria-hidden="true"></i>
+                    Tutorial</i>
+            </p>
+            <mat-accordion>
+                <!-- #enddocregion basic-panel -->
+                <mat-expansion-panel
+                    (opened)="true"
+                    (closed)="false">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>Introducción</mat-panel-title>
+                        <mat-panel-description></mat-panel-description>
+                    </mat-expansion-panel-header>
+                    <button mat-button
+                        (click)="CambiarUrlVideo('Entorno', false)">Entorno de
+                        Overleaf</button>
+                </mat-expansion-panel>
+            </mat-accordion>
+            <mat-accordion>
+                <!-- #enddocregion basic-panel -->
+                <mat-expansion-panel
+                    (opened)="true"
+                    (closed)="false">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>Anteproyecto
+                        </mat-panel-title>
+                        <mat-panel-description> </mat-panel-description>
+                    </mat-expansion-panel-header>
+                    <button mat-button
+                        (click)="CambiarUrlVideo('Problema', false)">Datos
+                        generales</button>
+                    <br />
+                    <button mat-button>Problema
+                    </button>
+                    <br />
+                    <button mat-button
+                        (click)="CambiarUrlVideo('Objetivos', false)">Objetivos
+                    </button>
+                    <br />
+                    <button mat-button
+                        (click)="CambiarUrlVideo('Alcance', false)">Alcance
+                    </button>
+                    <br />
+                    <button mat-button
+                        (click)="CambiarUrlVideo('Justificacion', false)">Justificación
+                    </button>
+                    <br />
+                    <button mat-button
+                        (click)="CambiarUrlVideo('Antecedentes', false)">Antecedentes
+                    </button>
+                    <br />
+                    <button mat-button
+                        (click)="CambiarUrlVideo('Contenido', false)">Contenidos
+                    </button>
+                    <br />
+                    <button mat-button
+                        (click)="CambiarUrlVideo('Cronograma', false)">Cronograma
+                    </button>
+                    <br />
+                    <button mat-button
+                        (click)="CambiarUrlVideo('Presupuesto', false)">Presupuestos
+                    </button>
+                    <br />
+                    <button mat-button
+                        (click)="CambiarUrlVideo('Firmas', false)">Firma
+                    </button>
+                    <br />
+                    <button mat-button
+                        (click)="CambiarUrlVideo('Referencias', false)">Referencias
+                    </button>
+                </mat-expansion-panel>
+            </mat-accordion>
+            <mat-accordion>
+                <!-- #enddocregion basic-panel -->
+                <mat-expansion-panel
+                    (opened)="true"
+                    (closed)="false">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>Tesis de grado
+                        </mat-panel-title>
+                        <mat-panel-description> </mat-panel-description>
+                    </mat-expansion-panel-header>
+                    <button mat-button
+                        (click)="CambiarUrlVideo('Autorizacion', true)"
+                        class="btn-control">Autorización y Uso</button>
+                    <br />
+                    <button mat-button
+                        (click)="CambiarUrlVideo('DedicatoriaAgradecimiento', true)"
+                        class="btn-control">Dedicatoria y Agradecimiento</button>
+                    <br />
+                    <button mat-button
+                        (click)="CambiarUrlVideo('ResumenAbstract', true)"
+                        class="btn-control">Resumen y Abstract</button>
+                    <br />
+                    <button mat-button
+                        (click)="CambiarUrlVideo('Capitulos', true)"
+                        class="btn-control">Capítulos</button>
+                    <br />
+                    <button mat-button
+                        (click)="CambiarUrlVideo('ConclusionesRecomendaciones', true)"
+                        class="btn-control">Conclusiones y Recomendaciones</button>
+                    <br />
+                    <button mat-button (click)="CambiarUrlVideo('Firmas', true)"
+                        class="btn-control">Firmas</button>
+                    <br />
+                </mat-expansion-panel>
+            </mat-accordion>
+        </mat-drawer>
+    </mat-drawer-container>
+
+</div>
+<footer class="bg-light text-center pt-2" style="background-color: #fff;">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 1);">
+        <span class="text-light">
+            © 2023 Copyright:
+        </span>
+        <a class="text-light" href="#!" style="text-decoration: none;">FICA-UTN</a>
+    </div>
+</footer>
