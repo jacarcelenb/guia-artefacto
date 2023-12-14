@@ -73,7 +73,7 @@ export class PreguntasComponent implements OnInit {
     pregunta:'¿Dónde puedo aprender LaTeX?',
     respuesta: 'Existen varios recursos en canales de Youtube pero la documentación completa se encuentra en la página oficial de  The LaTeX Project o puede revisar este enlace de Overleaf donde se enseña rapidamente el manejo de LaTeX.',
     mostrar: false,
-    enlace:"https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes'"
+    enlace:"https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes"
   })
  }
 
