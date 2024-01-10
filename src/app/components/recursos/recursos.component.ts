@@ -15,12 +15,6 @@ export class RecursosComponent implements OnInit {
 
 CargarRecursos(): void {
 
-  this.listaRecursos.push({
-    recurso:"Plantilla en Overleaf",
-    descripcion: "Enlace de la plantilla para el perfil y tesis de grado.",
-    enlace: "https://www.overleaf.com/3363858527tbbhvcyhjfbg#6fee52"
-  })
-
  this.listaRecursos.push({
    recurso:"Tablas en LaTeX",
    descripcion: "Herramienta para crear tablas en LaTeX de forma sencilla.",
@@ -59,19 +53,19 @@ this.listaRecursos.push({
 this.listaRecursos.push({
   recurso:"Ejemplo Tesis",
   descripcion: "Ejemplo de Tesis",
-  enlace: "https://drive.google.com/file/d/1_e3zDqaSN9AvbJKi569_nVV2fJu7pA2S/view?usp=sharing"
+  enlace: "https://docs.google.com/document/d/196oN9KWwO2o1Mxw8wD3cynVMpLeTXwGd/edit?usp=sharing&ouid=104038044104562954417&rtpof=true&sd=true"
 })
 
 this.listaRecursos.push({
   recurso:"Ejemplo Anteproyecto",
   descripcion: "Ejemplo de Perfil de Tesis de grado",
-  enlace: "https://drive.google.com/file/d/1cfVWAdWvEUeoDsbx_4Llbhfd94cM_o0V/view?usp=sharing"
+  enlace: "https://docs.google.com/document/d/1r6Wvy89PAD6h70mWIQlzeMU5aYe0yPAR/edit?usp=sharing&ouid=104038044104562954417&rtpof=true&sd=true"
 })
 
 this.listaRecursos.push({
   recurso:"Ejemplo Plantilla  de Tesis LaTeX",
   descripcion: "Ejemplo de la plantilla  de Tesis LaTeX",
-  enlace: "https://drive.google.com/file/d/1YhRNbK8V8YaV2bOOhNphjQU2AHrJ0V9O/view?usp=sharing"
+  enlace: "https://drive.google.com/file/d/18k4RmbVLEKSIqtbwUX70HMaXIhMOBANR/view?usp=sharing"
 })
 
 }
