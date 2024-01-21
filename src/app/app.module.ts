@@ -18,6 +18,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatStepperModule } from '@angular/material/stepper';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { EncuestasComponent } from './components/encuestas/encuestas.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     RecursosComponent,
     PreguntasComponent,
     ContactoComponent,
-    MainComponent
+    MainComponent,
+    EncuestasComponent
   ],
   imports: [
     BrowserModule,

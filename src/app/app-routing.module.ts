@@ -5,12 +5,14 @@ import { PreguntasComponent } from './components/preguntas/preguntas.component';
 import { RecursosComponent } from './components/recursos/recursos.component';
 import { AppComponent } from './app.component';
 import { MainComponent } from './components/main/main.component';
+import { EncuestasComponent } from './components/encuestas/encuestas.component';
 
 const routes: Routes = [
   { path: 'home', component: MainComponent },
   { path: 'preguntas', component: PreguntasComponent },
   { path: 'recursos', component: RecursosComponent },
   { path: 'tutorial', component: TutorialComponent },
+  { path: 'encuestas', component: EncuestasComponent },
   { path: '**', pathMatch: 'full', redirectTo:'home' },
 ];
 

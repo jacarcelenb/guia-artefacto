@@ -59,7 +59,7 @@ this.listaRecursos.push({
 this.listaRecursos.push({
   recurso:"Ejemplo Anteproyecto",
   descripcion: "Ejemplo de Perfil de Tesis de grado",
-  enlace: "https://docs.google.com/document/d/1r6Wvy89PAD6h70mWIQlzeMU5aYe0yPAR/edit?usp=sharing&ouid=104038044104562954417&rtpof=true&sd=true"
+  enlace: "https://docs.google.com/document/d/1sxgKMM_0SqYM1DP1ibmG6q2SAhJDy2UD/edit?usp=sharing&ouid=104038044104562954417&rtpof=true&sd=true"
 })
 
 this.listaRecursos.push({

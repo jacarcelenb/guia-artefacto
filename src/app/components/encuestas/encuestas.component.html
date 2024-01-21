@@ -1,0 +1,32 @@
+<div class="container">
+    <br>
+    <p style="text-align: center; font-weight:bolder; color:black;
+    font-size: 24px;"><i class="fa fa-file-text" aria-hidden="true"></i>
+        Encuestas </p>
+    <br>
+
+    <div class="container-table">
+        <table
+            class="table table-dark table-bordered table-striped table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Descripción</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of listaEncuestas">
+                    <td>{{item.descripcion}}</td>
+                    <td> <a href="{{item.enlace}}" target="_blank"
+                            class="btn btn-primary">Enlace <i
+                                class="fa fa-check"
+                                aria-hidden="true"></i></a></td>
+
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
