@@ -50,6 +50,13 @@ export class PreguntasComponent implements OnInit {
     mostrar: false,
     enlace:"https://www.youtube.com/watch?v=efrbQ37aowM"
   })
+
+  this.listaPreguntas.push({
+    pregunta:'Citas en LaTeX',
+    respuesta: 'Para realizar citas en LaTeX, puedes utilizar el sistema de gestión de bibliografía BibTeX junto con el estilo de citación que prefieras, el siguiente enlace contiene información.',
+    mostrar: false,
+    enlace:"https://www.youtube.com/watch?v=Hi0XApl7d9c&t=14s"
+  })
   this.listaPreguntas.push({
     pregunta:'¿Cómo puedo insertar listas en LaTeX?',
     respuesta: 'Puedes insertar listas en LaTeX utilizando los entornos itemize (viñetas) y enumerate (números), el siguiente enlace contiene más información.',
