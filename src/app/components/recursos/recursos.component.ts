@@ -34,6 +34,18 @@ this.listaRecursos.push({
 })
 
 this.listaRecursos.push({
+  recurso:'¿Cómo puedo realizar citas en LaTeX?',
+  descripcion: 'Citas en LaTeX',
+  enlace:"https://www.youtube.com/watch?v=efrbQ37aowM"
+})
+
+this.listaRecursos.push({
+  recurso:'Citas en LaTeX',
+  descripcion: 'Citas en LaTeX',
+  enlace:"https://www.youtube.com/watch?v=Hi0XApl7d9c&t=14s"
+})
+
+this.listaRecursos.push({
   recurso:"Aprender LaTeX en Overleaf",
   descripcion: "Guía para aprender LaTeX en Overleaf.",
   enlace: "https://es.overleaf.com/learn"
@@ -59,7 +71,7 @@ this.listaRecursos.push({
 this.listaRecursos.push({
   recurso:"Ejemplo Anteproyecto",
   descripcion: "Ejemplo de Perfil de Tesis de grado",
-  enlace: "https://docs.google.com/document/d/1sxgKMM_0SqYM1DP1ibmG6q2SAhJDy2UD/edit?usp=sharing&ouid=104038044104562954417&rtpof=true&sd=true"
+  enlace: "https://docs.google.com/document/d/190p4DTex8VLdnttipBd5ZSIxm0RKCAPL/edit?usp=sharing&ouid=104038044104562954417&rtpof=true&sd=true"
 })
 
 this.listaRecursos.push({
